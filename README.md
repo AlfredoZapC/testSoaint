@@ -8,6 +8,16 @@ En la capa "controllers" se tiene mapeado todas las rutas.
 La ruta principal es /api/
 desde allí se puede consultar y hacer las diferentes pruebas para /clientes, /ventas, /productos y /productos/{id}
 
+**Para el outh en Postman
+1) Authorization -> Basic Auth
+
+2) Body (x-www-form-urlencoded):
+- username - alfredo
+- password - 12345
+- grant_type - password
+
+POST  -> http://localhost:8090/oauth/token
+
 
 ### PREGUNTA 4. Con sus propias palabras indique de qué forma podría mejorar la seguridad y optimizar el carrito de compras.
 - Agregar seguridad Outh2 (el mas actual) antes de logearse en la aplicación de carrito de compras.
