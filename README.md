@@ -8,8 +8,11 @@ En la capa "controllers" se tiene mapeado todas las rutas.
 La ruta principal es /api/
 desde allí se puede consultar y hacer las diferentes pruebas para /clientes, /ventas, /productos y /productos/{id}
 
-**Para el outh en Postman
+### Para el outh en Postman
 1) Authorization -> Basic Auth
+username: clientedummy
+password: 12345
+
 
 2) Body (x-www-form-urlencoded):
 - username - alfredo
