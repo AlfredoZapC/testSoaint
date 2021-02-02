@@ -57,5 +57,9 @@ INSERT INTO usuarios_roles (usuario_id, roles_id) VALUES (2,1);
 ### TEST JUNIT
 
 
-**Add_Cliente**
+**getCliente_OK**
+![clienteok](https://user-images.githubusercontent.com/43482668/106643293-83a32780-6557-11eb-94aa-93c400784c1e.png)
+
+**getCliente_error**
+![clienteerror](https://user-images.githubusercontent.com/43482668/106643301-89007200-6557-11eb-91ea-6dd968a01ecb.png)
 
